@@ -19,7 +19,7 @@ As you can imagine, the number of tests that can be executed is infinite, so the
 was to generate enough tests which will make our automation program to be sound, efficient 
 and effective.
 
-## Testing Specification
+## Tesseract Testing Specification
 We were asked to test Tesseract under the following specifications:
 1. The supported fonts are the ones listed in "fonts" directory. 
 2. Supported languages: English, Hebrew, Swedish, Spanish. 
