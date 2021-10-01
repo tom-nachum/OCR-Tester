@@ -1,0 +1,1407 @@
+﻿Test number,Path,File name,Image description,Text,Comments,Language,tessedit_char_blacklist=,tessedit_char_unblacklist=,tessedit_char_whitelist=,page_separator=
+1,images,1_testType_file_format_Arial_20.png,"empty picture, .png format ",,"file format pictures (size 20, Arial font)",eng,None,None,None,None
+2,images,2_testType_file_format_Arial_20.png,"all english letters, .png format ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+3,images,3_testType_file_format_Arial_20.jpeg,"empty picture, .jpeg format ",,,eng,None,None,None,None
+4,images,4_testType_file_format_Arial_20.jpeg,"all english letters, .jpeg format ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+5,images,5_testType_file_format_Arial_20.jpg,"empty picture,, .jpg format ",,,eng,None,None,None,None
+6,images,6_testType_file_format_Arial_20.jpg,"all english letters, .jpg format ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+7,images,7_testType_sub_lang_Arial_20.png,all English letters,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+","languages pictures (size 20, Arial font, .png file format)",eng,None,None,None,None
+8,images,8_testType_sub_lang_Arial_20.png,all Hebrew letters,"אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+9,images,9_testType_sub_lang_Arial_20.png,all Swedish letters,"bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+",,swe,None,None,None,None
+10,images,10_testType_sub_lang_Arial_20.png,all Spanish letters,"ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ",,spa,None,None,None,None
+11,images,11_testType_sub_lang_Arial_20.png,all digits ,"0123456789
+",,,None,None,None,None
+12,images,12_testType_sub_lang_Arial_20.png,all special characters,"~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,,None,None,None,None
+13,images,13_testType_sub_lang_Arial_20.png,all English and Hebrew letters,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,eng+heb,None,None,None,None
+14,images,14_testType_sub_lang_Arial_20.png,all English and Swedish letters,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+",,eng+swe,None,None,None,None
+15,images,15_testType_sub_lang_Arial_20.png,all English and Spanish letters,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ",,eng+spa,None,None,None,None
+16,images,16_testType_sub_lang_Arial_20.png,all English letters and all digits,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+0123456789
+",,eng,None,None,None,None
+17,images,17_testType_sub_lang_Arial_20.png,all English letters and all special characters,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng,None,None,None,None
+18,images,18_testType_sub_lang_Arial_20.png,all Hebrew and Swedish letters,"אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+",,heb+swe,None,None,None,None
+19,images,19_testType_sub_lang_Arial_20.png,all Hebrew and Spanish letters,"אבגדהוזחטיכלמנסעפצקרשתםףץן
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ",,heb+spa,None,None,None,None
+20,images,20_testType_sub_lang_Arial_20.png,all Hebrew letters and all digits,"אבגדהוזחטיכלמנסעפצקרשתםףץן
+0123456789
+",,heb,None,None,None,None
+21,images,21_testType_sub_lang_Arial_20.png,all Hebrew letters and all special characters,"אבגדהוזחטיכלמנסעפצקרשתםףץן
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,heb,None,None,None,None
+22,images,22_testType_sub_lang_Arial_20.png,all Swedish and Spanish letters,"bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ",,swe+spa,None,None,None,None
+23,images,23_testType_sub_lang_Arial_20.png,all Swedish and all digits,"bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+0123456789
+",,swe,None,None,None,None
+24,images,24_testType_sub_lang_Arial_20.png,all Swedish and all special characters,"bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,swe,None,None,None,None
+25,images,25_testType_sub_lang_Arial_20.png,all Spanish and all digits,"ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+",,spa,None,None,None,None
+26,images,26_testType_sub_lang_Arial_20.png,all Spanish and all special characters,"ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,spa,None,None,None,None
+27,images,27_testType_sub_lang_Arial_20.png,all digits and all special characters,"0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,,None,None,None,None
+28,images,28_testType_sub_lang_Arial_20.png,"all English, Hebrew and Swedish letters","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+",,eng+heb+swe,None,None,None,None
+29,images,29_testType_sub_lang_Arial_20.png,"all English, Hebrew and Spanish letters","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ",,eng+heb+spa,None,None,None,None
+30,images,30_testType_sub_lang_Arial_20.png,all English and Hebrew letters and all digits  ,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+0123456789
+",,eng+heb,None,None,None,None
+31,images,31_testType_sub_lang_Arial_20.png,all English and Hebrew letters and all special characters  ,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng+heb,None,None,None,None
+32,images,32_testType_sub_lang_Arial_20.png,"all English, Swedish and Spanish letters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ",,eng+swe+spa,None,None,None,None
+33,images,33_testType_sub_lang_Arial_20.png,all English and Swedish letters and all digits  ,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+0123456789
+",,eng+swe,None,None,None,None
+34,images,34_testType_sub_lang_Arial_20.png,all English and Swedish letters and all special characters  ,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng+swe,None,None,None,None
+35,images,35_testType_sub_lang_Arial_20.png,all English and Spanish letters and all digits  ,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+",,eng+spa,None,None,None,None
+36,images,36_testType_sub_lang_Arial_20.png,all English and Spanish letters and all special characters  ,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng+spa,None,None,None,None
+37,images,37_testType_sub_lang_Arial_20.png,"all English letters, all digits and all special characters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng,None,None,None,None
+38,images,38_testType_sub_lang_Arial_20.png,"all Hebrew, Swedish and Spanish letters  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ",,heb+swe+spa,None,None,None,None
+39,images,39_testType_sub_lang_Arial_20.png,all Hebrew and Swedish letters and all digits  ,"אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+0123456789
+",,heb+swe,None,None,None,None
+40,images,40_testType_sub_lang_Arial_20.png,all Hebrew and Swedish letters and all special characters  ,"אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,heb+swe,None,None,None,None
+41,images,41_testType_sub_lang_Arial_20.png,all Hebrew and Spanish letters and all digits  ,"אבגדהוזחטיכלמנסעפצקרשתםףץן
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+",,heb+spa,None,None,None,None
+42,images,42_testType_sub_lang_Arial_20.png,all Hebrew and Spanish letters and all special characters  ,"אבגדהוזחטיכלמנסעפצקרשתםףץן
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,heb+spa,None,None,None,None
+43,images,43_testType_sub_lang_Arial_20.png,"all Hebrew letters, all digits and all special characters  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,heb,None,None,None,None
+44,images,44_testType_sub_lang_Arial_20.png,all Swedish and Spanish letters and all digits  ,"bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+",,swe+spa,None,None,None,None
+45,images,45_testType_sub_lang_Arial_20.png,all Swedish and Spanish letters and all special characters  ,"bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,swe+spa,None,None,None,None
+46,images,46_testType_sub_lang_Arial_20.png,"all Swedish letters, all digits and all special characters  ","bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,swe,None,None,None,None
+47,images,47_testType_sub_lang_Arial_20.png,"all Spanish letters, all digits and all special characters  ","ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,spa,None,None,None,None
+48,images,48_testType_sub_lang_Arial_20.png,"all English, Hebrew, Swedish, Spanish letters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ",4 elements sets,eng+heb+swe+spa,None,None,None,None
+49,images,49_testType_sub_lang_Arial_20.png,"all English, Hebrew, Swedish letters and all digits  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+0123456789
+",,eng+heb+swe,None,None,None,None
+50,images,50_testType_sub_lang_Arial_20.png,"all English, Hebrew, Swedish letters and all special characters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng+heb+swe,None,None,None,None
+51,images,51_testType_sub_lang_Arial_20.png,"all English, Hebrew, Spanish letters and all digits  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+",,eng+heb+spa,None,None,None,None
+52,images,52_testType_sub_lang_Arial_20.png,"all English, Hebrew, Spanish letters and all special characters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng+heb+spa,None,None,None,None
+53,images,53_testType_sub_lang_Arial_20.png,"all English and Hebrew letters, all digits and all special characters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng+heb,None,None,None,None
+54,images,54_testType_sub_lang_Arial_20.png,"all English, Swedish, Spanish letters and all digits  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+",,eng+swe+spa,None,None,None,None
+55,images,55_testType_sub_lang_Arial_20.png,"all English, Swedish, Spanish letters and all special characters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng+swe+spa,None,None,None,None
+56,images,56_testType_sub_lang_Arial_20.png,"all English and Swedish letters, all digits and all special characters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng+swe,None,None,None,None
+57,images,57_testType_sub_lang_Arial_20.png,"all English and Spanish letters, all digits and all special characters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng+spa,None,None,None,None
+58,images,58_testType_sub_lang_Arial_20.png,"all Hebrew, Swedish, Spanish letters and all digits  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+",,heb+swe+spa,None,None,None,None
+59,images,59_testType_sub_lang_Arial_20.png,"all Hebrew, Swedish, Spanish letters and all special characters  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,heb+swe+spa,None,None,None,None
+60,images,60_testType_sub_lang_Arial_20.png,"all Hebrew and Swedish letters, all digits and all special characters  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,heb+swe,None,None,None,None
+61,images,61_testType_sub_lang_Arial_20.png,"all Hebrew and Spanish letters, all digits and all special characters  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,heb+spa,None,None,None,None
+62,images,62_testType_sub_lang_Arial_20.png,"all Swedish and Spanish letters, all digits and all special characters  ","bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,swe+spa,None,None,None,None
+63,images,63_testType_sub_lang_Arial_20.png,"all English, Hebrew, Swedish, Spanish letters and all digits  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+",5 elements sets,eng+heb+swe+spa,None,None,None,None
+64,images,64_testType_sub_lang_Arial_20.png,"all English, Hebrew, Swedish, Spanish letters and all special characters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng+heb+swe+spa,None,None,None,None
+65,images,65_testType_sub_lang_Arial_20.png,"all English, Hebrew and Swedish letters, all digits and all special characters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng+heb+swe,None,None,None,None
+66,images,66_testType_sub_lang_Arial_20.png,"all English, Hebrew and Spanish letters, all digits and all special characters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng+heb+spa,None,None,None,None
+67,images,67_testType_sub_lang_Arial_20.png,"all English, Swedish and Spanish letters, all digits and all special characters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,eng+swe+spa,None,None,None,None
+68,images,68_testType_sub_lang_Arial_20.png,"all Hebrew, Swedish and Spanish letters, all digits and all special characters  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,heb+swe+spa,None,None,None,None
+69,images,69_testType_sub_lang_Arial_20.png,"all English, Hebrew, Swedish and Spanish letters, all digits and all special characters  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+bcdfghjklmnp
+qrstvwxzaeiouyåäö
+ÅÄÖABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+ñabcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZÑ0123456789
+~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",6 element set,eng+heb+swe+spa,None,None,None,None
+70,images,70_testType_fonts_Aharoni Bold_8.png,"all Hebrew letters, Aharoni Bold font, size 8","אבגדהוזחטיכלמנסעפצקרשתםףץן
+","font type pictures (boundary values sizes, .png file format)",heb,None,None,None,None
+71,images,71_testType_fonts_Aharoni Bold_8.png,"all English letters, Aharoni Bold font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+72,images,72_testType_fonts_Aharoni Bold_72.png,"all Hebrew letters, Aharoni Bold font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+73,images,73_testType_fonts_Aharoni Bold_72.png,"all English letters, Aharoni Bold font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+74,images,74_testType_fonts_Arial_8.png,"all Hebrew letters, Arial font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+75,images,75_testType_fonts_Arial_8.png,"all English letters, Arial font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+76,images,76_testType_fonts_Arial_72.png,"all Hebrew letters, Arial font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+77,images,77_testType_fonts_Arial_72.png,"all English letters, Arial font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+78,images,78_testType_fonts_Arial Black_8.png,"all English letters, Arial Black font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+79,images,79_testType_fonts_Arial Black_72.png,"all English letters, Arial Black font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+80,images,80_testType_fonts_Bahnschrift_8.png,"all English letters, Bahnschrift font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+81,images,81_testType_fonts_Bahnschrift_72.png,"all English letters, Bahnschrift font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+82,images,82_testType_fonts_Calibri_8.png,"all Hebrew letters, Calibri font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+83,images,83_testType_fonts_Calibri_8.png,"all English letters, Calibri font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+84,images,84_testType_fonts_Calibri_72.png,"all Hebrew letters, Calibri font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+85,images,85_testType_fonts_Calibri_72.png,"all English letters, Calibri font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+86,images,86_testType_fonts_Cambria_8.png,"all English letters, Cambria font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+87,images,87_testType_fonts_Cambria_72.png,"all English letters, Cambria font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+88,images,88_testType_fonts_Cambria Math_8.png,"all English letters, Cambria Math font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+89,images,89_testType_fonts_Cambria Math_72.png,"all English letters, Cambria Math font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+90,images,90_testType_fonts_Candara_8.png,"all English letters, Candara font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+91,images,91_testType_fonts_Candara_72.png,"all English letters, Candara font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+92,images,92_testType_fonts_Comic Sans MS_8.png,"all English letters, Comic Sans font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+93,images,93_testType_fonts_Comic Sans MS_72.png,"all English letters, Comic Sans font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+94,images,94_testType_fonts_Consolas_8.png,"all English letters, Consolas font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+95,images,95_testType_fonts_Consolas_72.png,"all English letters, Consolas font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+96,images,96_testType_fonts_Constantia_8.png,"all English letters, Constantia font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+97,images,97_testType_fonts_Constantia_72.png,"all English letters, Constantia font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+98,images,98_testType_fonts_Corbel_8.png,"all English letters, Corbel Math font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+99,images,99_testType_fonts_Corbel_72.png,"all English letters, Corbel Math font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+100,images,100_testType_fonts_Courier New_8.png,"all Hebrew letters, Courier New font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+101,images,101_testType_fonts_Courier New_8.png,"all English letters, Courier New font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+102,images,102_testType_fonts_Courier New_72.png,"all Hebrew letters, Courier New font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+103,images,103_testType_fonts_Courier New_72.png,"all English letters, Courier New font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+104,images,104_testType_fonts_David_8.png,"all Hebrew letters, David font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+105,images,105_testType_fonts_David_8.png,"all English letters, David font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+106,images,106_testType_fonts_David_72.png,"all Hebrew letters,David font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+107,images,107_testType_fonts_David_72.png,"all English letters, David font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+108,images,108_testType_fonts_David Bold_8.png,"all Hebrew letters, David Bold font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+109,images,109_testType_fonts_David Bold_8.png,"all English letters, David Bold font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+110,images,110_testType_fonts_David Bold_72.png,"all Hebrew letters,David Bold font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+111,images,111_testType_fonts_David Bold_72.png,"all English letters, David Bold font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+112,images,112_testType_fonts_Ebrima_8.png,"all English letters, Ebrima font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+113,images,113_testType_fonts_Ebrima_72.png,"all English letters, Ebrima font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+114,images,114_testType_fonts_Forte_8.png,"all English letters, Forte font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+115,images,115_testType_fonts_Forte_72.png,"all English letters, Forte font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+116,images,116_testType_fonts_Franklin Gothic Medium_8.png,"all English letters, Franklin Gothic Medium font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+117,images,117_testType_fonts_Franklin Gothic Medium_72.png,"all English letters, Franklin Gothic Medium font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+118,images,118_testType_fonts_FrankRuehl_8.png,"all Hebrew letters, FrankRuehl font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+119,images,119_testType_fonts_FrankRuehl_8.png,"all English letters, FrankRuehl font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+120,images,120_testType_fonts_FrankRuehl_72.png,"all Hebrew letters, FrankRuehl font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+121,images,121_testType_fonts_FrankRuehl_72.png,"all English letters, FrankRuehl font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+122,images,122_testType_fonts_Gabriola_8.png,"all English letters, Gabriola font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+123,images,123_testType_fonts_Gabriola_72.png,"all English letters, Gabriola font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+124,images,124_testType_fonts_Gadugi_8.png,"all English letters, Gadugi font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+125,images,125_testType_fonts_Gadugi_72.png,"all English letters, Gadugi font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+126,images,126_testType_fonts_Georgia_8.png,"all English letters, Georgia font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+127,images,127_testType_fonts_Georgia_72.png,"all English letters, Georgia font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+128,images,128_testType_fonts_Gisha_8.png,"all Hebrew letters, Gisha font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+129,images,129_testType_fonts_Gisha_8.png,"all English letters, Gisha font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+130,images,130_testType_fonts_Gisha_72.png,"all Hebrew letters, Gisha font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+131,images,131_testType_fonts_Gisha_72.png,"all English letters, Gisha font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+132,images,132_testType_fonts_Gisha Bold_8.png,"all Hebrew letters, Gisha Bold font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+133,images,133_testType_fonts_Gisha Bold_8.png,"all English letters, Gisha Bold font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+134,images,134_testType_fonts_Gisha Bold_72.png,"all Hebrew letters, Gisha Bold font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+135,images,135_testType_fonts_Gisha Bold_72.png,"all English letters, Gisha Bold font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+136,images,136_testType_fonts_Impact_8.png,"all English letters, Impact font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+137,images,137_testType_fonts_Impact_72.png,"all English letters, Impact font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+138,images,138_testType_fonts_Ink Free_8.png,"all English letters, Ink Free font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+139,images,139_testType_fonts_Ink Free_72.png,"all English letters, Ink Free font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+140,images,140_testType_fonts_Levenim MT_8.png,"all Hebrew letters, Levenim MT font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+141,images,141_testType_fonts_Levenim MT_8.png,"all English letters, Levenim MT font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+142,images,142_testType_fonts_Levenim MT_72.png,"all Hebrew letters, Levenim MT font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+143,images,143_testType_fonts_Levenim MT_72.png,"all English letters, Levenim MT font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+144,images,144_testType_fonts_Levenim MT Bold_8.png,"all Hebrew letters, Levenim MT Bold font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+145,images,145_testType_fonts_Levenim MT Bold_8.png,"all English letters, Levenim MT Bold font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+146,images,146_testType_fonts_Levenim MT Bold_72.png,"all Hebrew letters, Levenim MT Bold font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+147,images,147_testType_fonts_Levenim MT Bold_72.png,"all English letters, Levenim MT Bold font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+148,images,148_testType_fonts_Lucida Console_8.png,"all English letters, Lucida Console font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+149,images,149_testType_fonts_Lucida Console_72.png,"all English letters, Lucida Console font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+150,images,150_testType_fonts_Lucida Sans Unicode_8.png,"all Hebrew letters, Lucida Sans Unicode font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+151,images,151_testType_fonts_Lucida Sans Unicode_8.png,"all English letters, Lucida Sans Unicode font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+152,images,152_testType_fonts_Lucida Sans Unicode_72.png,"all Hebrew letters, Lucida Sans Unicode font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+153,images,153_testType_fonts_Lucida Sans Unicode_72.png,"all English letters, Lucida Sans Unicode font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+154,images,154_testType_fonts_Microsoft Sans Serif_8.png,"all Hebrew letters, Microsoft Sans Serif font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+155,images,155_testType_fonts_Microsoft Sans Serif_8.png,"all English letters, Microsoft Sans Serif font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+156,images,156_testType_fonts_Microsoft Sans Serif_72.png,"all Hebrew letters, Microsoft Sans Serif font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+157,images,157_testType_fonts_Microsoft Sans Serif_72.png,"all English letters, Microsoft Sans Serif font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+158,images,158_testType_fonts_Miriam_8.png,"all Hebrew letters, Miriam font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+159,images,159_testType_fonts_Miriam_8.png,"all English letters, Miriam font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+160,images,160_testType_fonts_Miriam_72.png,"all Hebrew letters, Miriam font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+161,images,161_testType_fonts_Miriam_72.png,"all English letters, Miriam font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+162,images,162_testType_fonts_Miriam Fixed_8.png,"all Hebrew letters, Miriam Fixed font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+163,images,163_testType_fonts_Miriam Fixed_8.png,"all English letters, Miriam Fixed font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+164,images,164_testType_fonts_Miriam Fixed_72.png,"all Hebrew letters, Miriam Fixed font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+165,images,165_testType_fonts_Miriam Fixed_72.png,"all English letters, Miriam Fixed font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+166,images,166_testType_fonts_MS Gothic_8.png,"all English letters, MS Gothic font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+167,images,167_testType_fonts_MS Gothic_72.png,"all English letters, MS Gothic font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+168,images,168_testType_fonts_Narkisim_8.png,"all Hebrew letters, Narkisim font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+169,images,169_testType_fonts_Narkisim_8.png,"all English letters, Narkisim font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+170,images,170_testType_fonts_Narkisim_72.png,"all Hebrew letters, Narkisim font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+171,images,171_testType_fonts_Narkisim_72.png,"all English letters, Narkisim font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+172,images,172_testType_fonts_Rod_8.png,"all Hebrew letters, Rod font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+173,images,173_testType_fonts_Rod_8.png,"all English letters, Rod font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+174,images,174_testType_fonts_Rod_72.png,"all Hebrew letters, Rod font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+175,images,175_testType_fonts_Rod_72.png,"all English letters, Rod font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+176,images,176_testType_fonts_Segoe Print_8.png,"all English letters, Segoe Print font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+177,images,177_testType_fonts_Segoe Print_72.png,"all English letters, Segoe Print font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+178,images,178_testType_fonts_Segoe Script_8.png,"all English letters, Segoe Script font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+179,images,179_testType_fonts_Segoe Script_72.png,"all English letters, Segoe Script font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+", Hebrew is not supported on this font,eng,None,None,None,None
+180,images,180_testType_fonts_Segoe UI_8.png,"all Hebrew letters, Segoe UI font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+181,images,181_testType_fonts_Segoe UI_8.png,"all English letters, Segoe UI font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+182,images,182_testType_fonts_Segoe UI_72.png,"all Hebrew letters, Segoe UI font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+183,images,183_testType_fonts_Segoe UI_72.png,"all English letters, Segoe UI font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+184,images,184_testType_fonts_Tahoma_8.png,"all Hebrew letters, Tahoma font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+185,images,185_testType_fonts_Tahoma_8.png,"all English letters, Tahoma font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+186,images,186_testType_fonts_Tahoma_72.png,"all Hebrew letters, Tahoma font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+187,images,187_testType_fonts_Tahoma_72.png,"all English letters, Tahoma font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+188,images,188_testType_fonts_Times New Roman_8.png,"all Hebrew letters, Times New Roman font, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+189,images,189_testType_fonts_Times New Roman_8.png,"all English letters, Times New Roman font, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+190,images,190_testType_fonts_Times New Roman_72.png,"all Hebrew letters, Times New Roman font, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+191,images,191_testType_fonts_Times New Roman_72.png,"all English letters, Times New Roman font, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+192,images,192_testType_font_size_Arial_8.png,"all Hebrew letters, size 8  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+","font size pictures (boundary values, Arial font, .png file format)",heb,None,None,None,None
+193,images,193_testType_font_size_Arial_8.png,"all English letters, size 8  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+194,images,194_testType_font_size_Arial_9.png,"all Hebrew letters, size 9  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+195,images,195_testType_font_size_Arial_9.png,"all English letters, size 9  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+196,images,196_testType_font_size_Arial_32.png,"all Hebrew letters, size 32  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+197,images,197_testType_font_size_Arial_32.png,"all English letters, size 32  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+198,images,198_testType_font_size_Arial_71.png,"all Hebrew letters, size 71  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+199,images,199_testType_font_size_Arial_71.png,"all English letters, size 71  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+200,images,200_testType_font_size_Arial_72.png,"all Hebrew letters, size 72  ","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,heb,None,None,None,None
+201,images,201_testType_font_size_Arial_72.png,"all English letters, size 72  ","abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+",,eng,None,None,None,None
+202,images,202_testType_length_of_text_Arial_20.png,"only ""a"" letter at top left corner ",a,"text length pictures (size 20, Arial font, .png file format)",eng,None,None,None,None
+203,images,203_testType_length_of_text_Arial_20.png,"one full line of ""a"" letters at the top of the picture ","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+",,eng,None,None,None,None
+204,images,204_testType_length_of_text_Arial_20.png,"one full line of ""a"" letters at the middle of the picture ","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+",,eng,None,None,None,None
+205,images,205_testType_length_of_text_Arial_20.png,"one full line of ""a"" letters at the buttom of the picture ","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+",,eng,None,None,None,None
+206,images,206_testType_length_of_text_Arial_20.png,"""a"" letters covering the whole picture ","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+",,eng,None,None,None,None
+207,images,207_testType_space_Arial_20.png,"1-st mix of space, new line and ""ABC"" characters ","CA
+CB   C 
+
+   
+  C 
+ 
+ 
+   
+  
+   
+
+A A","text space pictures (generated randomly, size 20, Arial font, .png file format)",eng,None,None,None,None
+208,images,208_testType_space_Arial_20.png,"2-nd mix of space, new line and ""ABC"" characters ","C 
+ CB
+  
+
+   CBAB
+  BC   A  BA  B
+ 
+A  ",,eng,None,None,None,None
+209,images,209_testType_space_Arial_20.png,"3-rd mix of space, new line and ""ABC"" characters ","BC     C
+
+ CC   B 
+
+B
+  
+ 
+B 
+ 
+    A   ",,eng,None,None,None,None
+210,images,210_testType_space_Arial_20.png,"4-th mix of space, new line and ""ABC"" characters ","   CA
+A  
+ C
+  
+  CB       
+ B 
+ B  
+ AC",,eng,None,None,None,None
+211,images,211_testType_space_Arial_20.png,"5-th mix of space, new line and ""ABC"" characters ","  
+
+
+C
+  
+A
+ A  
+  C B B      
+ B
+  C  C",,eng,None,None,None,None
+212,images,212_testType_position_Arial_40.png,"only ""A"" letter at the top left corner of the picture ",A,"text position pictures (size 20, Arial font, .png file format)",eng,None,None,None,None
+213,images,213_testType_position_Arial_40.png,"only ""A"" letter at the buttom left corner of the picture ",A,,eng,None,None,None,None
+214,images,214_testType_position_Arial_40.png,"only ""A"" letter at the top right corner of the picture ",A,,eng,None,None,None,None
+215,images,215_testType_position_Arial_40.png,"only ""A"" letter at the buttom right corner of the picture ",A,,eng,None,None,None,None
+216,images,216_testType_position_Arial_40.png,"only ""A"" letter at the center of the picture ",A,,eng,None,None,None,None
+217,images,217_testType_position_Arial_40.png,"only ""A"" letter at the middle left side of the picture ",A,,eng,None,None,None,None
+218,images,218_testType_position_Arial_40.png,"only ""A"" letter at the middle top of the picture ",A,,eng,None,None,None,None
+219,images,219_testType_position_Arial_40.png,"only ""A"" letter at the middle right side of the picture ",A,,eng,None,None,None,None
+220,images,220_testType_position_Arial_40.png,"only ""A"" letter at the middle buttom of the picture ",A,,eng,None,None,None,None
+221,images,221_testType_position_Arial_40.png,"""Y  Y  Y  Y"" text, 0 degrees rotated ",Y  Y  Y  Y,,eng,None,None,None,None
+222,images,222_testType_position_Arial_40.png,"""Y  Y  Y  Y"" text, 90 degrees rotated ",Y  Y  Y  Y,,eng,None,None,None,None
+223,images,223_testType_position_Arial_40.png,"""Y  Y  Y  Y"" text, 180 degrees rotated ",Y  Y  Y  Y,,eng,None,None,None,None
+224,images,224_testType_position_Arial_40.png,"""Y  Y  Y  Y"" text, 270 degrees rotated ",Y  Y  Y  Y,,eng,None,None,None,None
+225,images,225_testType_line_spaces_Arial_20.png,All English and Hebrew letters seperated by 0 new lines,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,eng+heb,None,None,None,None
+226,images,226_testType_line_spaces_Arial_20.png,All English and Hebrew letters seperated by 1 new line,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,eng+heb,None,None,None,None
+227,images,227_testType_line_spaces_Arial_20.png,All English and Hebrew letters seperated by 2 new lines,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+
+
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,eng+heb,None,None,None,None
+228,images,228_testType_line_spaces_Arial_20.png,All English and Hebrew letters seperated by 3 new lines,"abcdefghijkl
+mnopqrstuvwxyz
+ABCDEFGHIJKLMN
+OPQRSTUVWXYZ
+
+
+
+אבגדהוזחטיכלמנסעפצקרשתםףץן
+",,eng+heb,None,None,None,None
+229,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,"Simple Test
+",,eng,None,None,None,None
+230,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,"טושפ טסט
+",,heb,None,None,None,None
+231,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,"å ä ö enkelt test Å Ä Ö
+",,swe,None,None,None,None
+232,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,"ñ prueba simple Ñ
+",,spa,None,None,None,None
+233,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,,,eng,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,None,None,None
+234,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,"Simple Test
+",,eng,,None,None,None
+235,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,"Smpl s
+",,eng,etTi,None,None,None
+236,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,"Simple Test
+",,eng,kPjGa,None,None,None
+237,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,"Smpl s
+",,eng,etTikPjGa,None,None,None
+238,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,,,heb,"אבגדהוזחטיכלמנסעפצקרשתםףץן
+",None,None,None
+239,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,"טושפ טסט
+",,heb,,None,None,None
+240,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,"ופ ס
+",,heb,טש,None,None,None
+241,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,"טושפ טסט
+",,heb,"אצקרתםףץן
+",None,None,None
+242,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,"ופ ס
+",,heb,"אצקרתםףץןטש
+",None,None,None
+243,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,,,swe,bcdfghjklmnpqrstvwxzaeiouyåäöÅÄÖABCDEFGHIJKLMNOPQRSTUVWXYZ,None,None,None
+244,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,"å ä ö enkelt test Å Ä Ö
+",,swe,,None,None,None
+245,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,"å nkl s  Ä Ö
+",,swe,etäöÅ,None,None,None
+246,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,"å ä ö enkelt test Å Ä Ö
+",,swe,AfoPg,None,None,None
+247,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,"å nkl s  Ä Ö
+",,swe,etäöÅAfoPg,None,None,None
+248,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,,,spa,ñabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZÑ,None,None,None
+249,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,"ñ prueba simple Ñ
+",,spa,,None,None,None
+250,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters," ruba sml Ñ
+",,spa,ñeip,None,None,None
+251,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,"ñ prueba simple Ñ
+",,spa,jyRVvN,None,None,None
+252,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters," ruba sml Ñ
+",,spa,jyRVvNñeip,None,None,None
+253,images,11_testType_sub_lang_Arial_20.png,all digits ,,,,"0123456789
+",None,None,None
+254,images,11_testType_sub_lang_Arial_20.png,all digits ,"0123456789
+",,,,None,None,None
+255,images,11_testType_sub_lang_Arial_20.png,all digits ,"01347
+",,,"25689
+",None,None,None
+256,images,11_testType_sub_lang_Arial_20.png,all digits ,"0123456789
+",,,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,None,None,None
+257,images,11_testType_sub_lang_Arial_20.png,all digits ,"01347
+",,,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ25689,None,None,None
+258,images,12_testType_sub_lang_Arial_20.png,all special characters,,,,"~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",None,None,None
+259,images,12_testType_sub_lang_Arial_20.png,all special characters,"~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,,,None,None,None
+260,images,12_testType_sub_lang_Arial_20.png,all special characters,",`@#*)-_{}[|\\/:;""<>.\
+",,,"~!$%^&(+=]?
+",None,None,None
+261,images,12_testType_sub_lang_Arial_20.png,all special characters,"~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ25689,None,None,None
+262,images,12_testType_sub_lang_Arial_20.png,all special characters,",`@#*)-_{}[|\\/:;""<>.\
+",,,"~!$%^&(+=]?abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+",None,None,None
+263,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,"Simple Test
+",,eng,,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,None,None
+264,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,"Simple Test
+",,eng,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,None,None
+265,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,"mpl Tst
+",,eng,Simple,mpl,None,None
+266,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,"Simple Test
+",,eng,mpl,Simple,None,None
+267,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,"mpl Tst
+",,eng,Simple,mplAck,None,None
+268,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,"טושפ טסט
+",,heb,,"אבגדהוזחטיכלמנסעפצקרשתםףץן
+",None,None
+269,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,"טושפ טסט
+",,heb,"אבגדהוזחטיכלמנסעפצקרשתםףץן
+","אבגדהוזחטיכלמנסעפצקרשתםףץן
+",None,None
+270,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,"טש טסט
+",,heb,פשוט,טש,None,None
+271,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,"טושפ טסט
+",,heb,טש,פשוט,None,None
+272,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,"טושפ טסט
+",,heb,פשוט,טשאבגכל,None,None
+273,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,"å ä ö enkelt test Å Ä Ö
+",,swe,,bcdfghjklmnpqrstvwxzaeiouyåäöÅÄÖABCDEFGHIJKLMNOPQRSTUVWXYZ,None,None
+274,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,"å ä ö enkelt test Å Ä Ö
+",,swe,bcdfghjklmnpqrstvwxzaeiouyåäöÅÄÖABCDEFGHIJKLMNOPQRSTUVWXYZ,bcdfghjklmnpqrstvwxzaeiouyåäöÅÄÖABCDEFGHIJKLMNOPQRSTUVWXYZ,None,None
+275,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,"ä  enkel es Å Ä 
+",,swe,ÄöåetÖ,eÄ,None,None
+276,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,"å ä ö enkelt test Å Ä Ö
+",,swe,eÄ,ÄöåetÖ,None,None
+277,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,"ä  enkel es Å Ä 
+",,swe,ÄöåetÖ,eÄvmbHL,None,None
+278,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,"ñ prueba simple Ñ
+",,spa,,ñabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZÑ,None,None
+279,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,"ñ prueba simple Ñ
+",,spa,ñabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZÑ,ñabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZÑ,None,None
+280,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,"ñ prea smple 
+",,spa,Ñeiupb,ep,None,None
+281,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,"ñ prueba simple Ñ
+",,spa,ep,Ñeiupb,None,None
+282,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,"ñ prea smple 
+",,spa,Ñeiupb,eplQvMH,None,None
+283,images,11_testType_sub_lang_Arial_20.png,all digits ,"0123456789
+",,,,"0123456789
+",None,None
+284,images,11_testType_sub_lang_Arial_20.png,all digits ,"0123456789
+",,,"0123456789
+","0123456789
+",None,None
+285,images,11_testType_sub_lang_Arial_20.png,all digits ,1234679,,,20578,27,None,None
+286,images,11_testType_sub_lang_Arial_20.png,all digits ,"0123456789
+",,,27,20578,None,None
+287,images,11_testType_sub_lang_Arial_20.png,all digits ,1234679,,,20578,abgHk27,None,None
+288,images,12_testType_sub_lang_Arial_20.png,all special characters,"~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,,,"~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",None,None
+289,images,12_testType_sub_lang_Arial_20.png,all special characters,"~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,,"~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+","~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",None,None
+290,images,12_testType_sub_lang_Arial_20.png,all special characters,"~,`!@$%^&*(-+={}[]|\\/:;"">.?\",,,!#%)_}[<?,!%}[?,None,None
+291,images,12_testType_sub_lang_Arial_20.png,all special characters,"~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,,!%}[?,!#%)_}[<?,None,None
+292,images,12_testType_sub_lang_Arial_20.png,all special characters,"~,`!@$%^&*(-+={}[]|\\/:;"">.?\",,,!#%)_}[<?,!%}[?fghjkHGV,None,None
+293,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,"Simple Test
+",,eng,None,None,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,None
+294,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,,,eng,None,None,,None
+295,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,"ie Tet
+",,eng,None,None,etTi,None
+296,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,,,eng,None,None,kPjGa,None
+297,images,229_testType_simple_tests_Arial_40.png,Simple Test of English letters,"ie Tet
+",,eng,None,None,etTikPjGa,None
+298,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,"טושפ טסט
+",,heb,None,None,"אבגדהוזחטיכלמנסעפצקרשתםףץן
+",None
+299,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,,,heb,None,None,,None
+300,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,"טש טט
+",,heb,None,None,טש,None
+301,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,,,heb,None,None,"אצקרתםףץן
+",None
+302,images,230_testType_simple_tests_Arial_40.png,Simple Test of Hebrew letters,"טש טט
+",,heb,None,None,"אצקרתםףץןטש
+",None
+303,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,"å ä ö enkelt test Å Ä Ö
+",,swe,None,None,bcdfghjklmnpqrstvwxzaeiouyåäöÅÄÖABCDEFGHIJKLMNOPQRSTUVWXYZ,None
+304,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,,,swe,None,None,,None
+305,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters," ä ö eet tet Å 
+",,swe,None,None,etäöÅ,None
+306,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters,,,swe,None,None,AfoPg,None
+307,images,231_testType_simple_tests_Arial_40.png,Simple Test of Swedish letters," ä ö eet tet Å 
+",,swe,None,None,etäöÅAfoPg,None
+308,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,"ñ prueba simple Ñ
+",,spa,None,None,ñabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZÑ,None
+309,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,,,spa,None,None,,None
+310,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,"ñ pe ipe 
+",,spa,None,None,ñeip,None
+311,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,,,spa,None,None,jyRVvN,None
+312,images,232_testType_simple_tests_Arial_40.png,Simple Test of Spanish letters,"ñ pe ipe 
+",,spa,None,None,jyRVvNñeip,None
+313,images,11_testType_sub_lang_Arial_20.png,all digits ,"0123456789
+",,,None,None,"0123456789
+",None
+314,images,11_testType_sub_lang_Arial_20.png,all digits ,,,,None,None,,None
+315,images,11_testType_sub_lang_Arial_20.png,all digits ,"25689
+",,,None,None,"25689
+",None
+316,images,11_testType_sub_lang_Arial_20.png,all digits ,,,,None,None,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,None
+317,images,11_testType_sub_lang_Arial_20.png,all digits ,"25689
+",,,None,None,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ25689,None
+318,images,12_testType_sub_lang_Arial_20.png,all special characters,"~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",,,None,None,"~,`!@#$%^&*()-_+={}[]|\\/:;""<>.?\
+",None
+319,images,12_testType_sub_lang_Arial_20.png,all special characters,,,,None,None,,None
+320,images,12_testType_sub_lang_Arial_20.png,all special characters,"~!$%^&(+=]?
+",,,None,None,"~!$%^&(+=]?
+",None
+321,images,12_testType_sub_lang_Arial_20.png,all special characters,,,,None,None,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ25689,None
+322,images,12_testType_sub_lang_Arial_20.png,all special characters,"~!$%^&(+=]?
+",,,,,"~!$%^&(+=]?abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+",
+323,images,1_testType_file_format_Arial_20.png,,A,,eng,None,None,None,A
+325,images,1_testType_file_format_Arial_20.png,,Å,,swe,None,None,None,Å
+326,images,1_testType_file_format_Arial_20.png,,ñ,,spa,None,None,None,ñ
+327,images,1_testType_file_format_Arial_20.png,,1,,,None,None,None,1
+328,images,1_testType_file_format_Arial_20.png,,$,,,None,None,None,$
+329,images,1_testType_file_format_Arial_20.png,,,,,None,None,None,
+330,images,229_testType_simple_tests_Arial_40.png,,"Simple Test
+A",,eng,None,None,None,A
+332,images,229_testType_simple_tests_Arial_40.png,,"Simple Test
+Å",,swe,None,None,None,Å
+333,images,229_testType_simple_tests_Arial_40.png,,"Simple Test
+ñ",,spa,None,None,None,ñ
+334,images,229_testType_simple_tests_Arial_40.png,,"Simple Test
+1",,,None,None,None,1
+335,images,229_testType_simple_tests_Arial_40.png,,"Simple Test
+$",,,None,None,None,$
+336,images,229_testType_simple_tests_Arial_40.png,,"Simple Test
+",,,,,,
