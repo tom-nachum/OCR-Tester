@@ -1,17 +1,7 @@
-# Software-Testing-Final-Project
+# OCR Tester
 
-## Course Description
-Software Testing is an elective course in computer science bachelor's program.
-The course staff are software testers from Intel, and as part of the course content, 
-we learned all kind of topics related to testing:
-* Exploratory testing. 
-* Test desing techniques as boundry values, equivalence classes etc.
-* Test automation.
-* Bug reporting.
-... and more.
-
-## Project Description
-In this project, we were asked to test an OCR (optical character recognition) engine 
+## Description
+This is the final project in Software Testing course. In this project, we were asked to test an OCR (optical character recognition) engine 
 called Tesseract, which is an open-source program.
 The main part of the project was to write a test strategy for the program, and to implement 
 it in python.
@@ -66,3 +56,12 @@ For each row (test) from input_artium.csv, the program:
 ###### testResults_artuim.csv
 Finally, we stored the test results in this file. 
 
+## Software Testing Course
+Software Testing is an elective course in computer science bachelor's program.
+The course staff are software testers from Intel, and as part of the course content, 
+we learned all kind of topics related to testing:
+* Exploratory testing. 
+* Test desing techniques as boundry values, equivalence classes etc.
+* Test automation.
+* Bug reporting.
+... and more.
