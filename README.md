@@ -61,7 +61,7 @@ Software Testing is an elective course in computer science bachelor's program.
 The course staff are software testers from Intel, and as part of the course content, 
 we learned all kind of topics related to testing:
 * Exploratory testing. 
-* Test desing techniques as boundry values, equivalence classes etc.
+* Test desing techniques as boundary values, equivalence classes etc.
 * Test automation.
 * Bug reporting.
 ... and more.
